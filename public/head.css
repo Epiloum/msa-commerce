@@ -1,0 +1,39 @@
+nav {
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  border-bottom: 1px solid #888;
+}
+nav button {
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  border: 0;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png');
+  background-size: 20px 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+nav ul {
+  display: none;
+  width: 180px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #fff;
+}
+nav ul li {
+  margin: 0;
+  padding: 6px;
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  list-style-type: none;
+}
